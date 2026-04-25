@@ -1,10 +1,8 @@
 # Streaming domains — merged list
-# Generated: 2026-04-25T15:37:43Z
+# Generated: 2026-04-25T15:43:40Z
 # Sources: primevideo, disney, hulu, hbo, netflix + custom
-# Total entries: 289
-#
-# Format: v2fly domain-list-community
-#   domain:<name>   regexp:<pattern>   full:<fqdn>   keyword:<word>
+# Total entries: 278
+# Format: plain domains, one per line
 
 112263.com
 20thcenturystudios.com.au
@@ -12,8 +10,8 @@
 20thcenturystudios.jp
 adventuresbydisney.com
 aiv-cdn.net
-amazonprimevideo.cn @cn
-amazonprimevideo.com.cn @cn
+amazonprimevideo.cn
+amazonprimevideo.com.cn
 amazonprimevideos.com
 amazonvideo.cc
 amazonvideo.com
@@ -25,6 +23,10 @@ beforeigners.com
 brightline.tv
 callhulu.com
 cinemax.com
+d1v5ir2lpwr8os.cloudfront.net
+d22qjgkvxw22r6.cloudfront.net
+d25xi40x97liuc.cloudfront.net
+d27xxe7juh1us6.cloudfront.net
 dilcdn.com
 discomax.com
 disney-asia.com
@@ -62,6 +64,7 @@ disney.in
 disney.io
 disney.it
 disney.my
+disney.my.sentry.io
 disney.nl
 disney.no
 disney.ph
@@ -117,25 +120,13 @@ disneytickets.co.uk
 disneyturkiye.com.tr
 disneytvajobs.com
 disneyworld-go.com
+dmqdd6hw24ucf.cloudfront.net
 dssott.com
 elpionero.es
 fast.com
 findyourlimits.com
 forthethrone.com
 freehulu.com
-full:d1v5ir2lpwr8os.cloudfront.net
-full:d22qjgkvxw22r6.cloudfront.net
-full:d25xi40x97liuc.cloudfront.net
-full:d27xxe7juh1us6.cloudfront.net
-full:disney.my.sentry.io @ads
-full:dmqdd6hw24ucf.cloudfront.net
-full:hulu.playback.edge.bamgrid.com
-full:images-eu.ssl-images-amazon.com
-full:images-fe.ssl-images-amazon.com
-full:images-na.ssl-images-amazon.com
-full:msh.amazon.co.uk
-full:netflix.com.edgesuite.net
-full:static.siege-amazon.com
 go-disneyworldgo.com
 go.com
 hbo-europe.com
@@ -200,6 +191,7 @@ huloo.cc
 huloo.tv
 hulu.com
 hulu.jp
+hulu.playback.edge.bamgrid.com
 hulu.tv
 hulu.us
 huluaction.com
@@ -227,22 +219,20 @@ hulustream.com
 huluteam.com
 hulutv.com
 huluusa.com
-include:abc
-include:bamtech
-include:espn
-include:hotstar
-include:marvel
-include:nationalgeographic
-include:starplus
+images-eu.ssl-images-amazon.com
+images-fe.ssl-images-amazon.com
+images-na.ssl-images-amazon.com
 joinmaidez.com
 max.com
 maxgo.com
 mickey.tv
 moviesanywhere.com
+msh.amazon.co.uk
 mushymush.tv
 myhulu.com
 netflix.ca
 netflix.com
+netflix.com.edgesuite.net
 netflix.net
 netflixdnstest0.com
 netflixdnstest1.com
@@ -275,10 +265,6 @@ primevideo.org
 primevideo.tv
 prod.service.minerva.devices.a2z.com
 redbyhbo.com
-regexp:(^|\.)apiproxy-device-prod-nlb-.+\.amazonaws\.com$
-regexp:(^|\.)apiproxy-website-nlb-prod-.+\.amazonaws\.com$
-regexp:(^|\.)dualstack\.apiproxy-.+\.amazonaws\.com$
-regexp:(^|\.)dualstack\.ichnaea-web-.+\.amazonaws\.com$
 registerhulu.com
 shopdisney.com
 shops-disney.com
@@ -289,6 +275,7 @@ star-latam.com
 starwars.com
 starwarsgalacticstarcruiser.com
 starwarskids.com
+static.siege-amazon.com
 streamingdisney.net
 thehulubraintrust.com
 thestationbymaker.com
