@@ -18,7 +18,7 @@ A merged, deduplicated domain list for major streaming services, auto-updated da
 The merged list is written to **`streaming-domains.txt`** in the root of the repo after every run.
 
 ```
-https://raw.githubusercontent.com/<YOUR_USERNAME>/<YOUR_REPO>/main/streaming-domains.txt
+https://raw.githubusercontent.com/Toremous/StreamingDomainList/main/streaming-domains.txt
 ```
 
 ## Adding custom domains
