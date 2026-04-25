@@ -1,0 +1,18 @@
+# Custom domain list
+# Add your custom entries here, one per line.
+#
+# Supported formats (same as v2fly domain-list-community):
+#
+#   domain:example.com       — exact domain match
+#   full:sub.example.com     — full domain match
+#   keyword:streaming        — keyword match
+#   regexp:\.stream$         — regex match
+#
+# Lines starting with # are comments and will be ignored.
+# Blank lines are also ignored.
+#
+# Examples:
+#   domain:mystreaming.tv
+#   full:watch.example.com
+#   keyword:vod
+
