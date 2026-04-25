@@ -33,17 +33,39 @@ def fetch_url(name: str, url: str) -> list[str]:
         return []
 
 
-def parse_lines(lines: list[str]) -> set[str]:
-    """Strip comments and blank lines; return normalised entries."""
+def parse_lines(lines: list[str], is_upstream: bool = False) -> set[str]:
+    """Return plain domain names only.
+
+    For upstream v2fly entries:
+      - domain:<n>  → keep as-is (matches domain + all subdomains on the router)
+      - full:<fqdn> → keep the fqdn
+      - include:<n> → skip (cross-reference, not a domain)
+      - keyword:<w> → skip (not a real domain)
+      - regexp:<p>  → skip (not a real domain)
+      - bare word   → keep as-is
+
+    For the custom list plain domains are expected directly, one per line.
+    """
     entries = set()
     for raw in lines:
         line = raw.strip()
-        # Strip inline comments
         if " #" in line:
             line = line[:line.index(" #")].strip()
         if not line or line.startswith("#"):
             continue
-        entries.add(line)
+
+        if is_upstream:
+            if line.startswith("domain:"):
+                entries.add(line[len("domain:"):])
+            elif line.startswith("full:"):
+                entries.add(line[len("full:"):])
+            elif line.startswith(("keyword:", "regexp:", "include:")):
+                continue
+            else:
+                entries.add(line)
+        else:
+            entries.add(line)
+
     return entries
 
 
@@ -53,7 +75,7 @@ def main():
     print("Fetching upstream sources:")
     for name, url in UPSTREAM_SOURCES.items():
         lines = fetch_url(name, url)
-        entries = parse_lines(lines)
+        entries = parse_lines(lines, is_upstream=True)
         all_entries |= entries
         print(f"    +{len(entries)} unique entries from {name}")
 
@@ -61,7 +83,7 @@ def main():
     if os.path.exists(CUSTOM_LIST):
         with open(CUSTOM_LIST, encoding="utf-8") as f:
             custom_lines = f.readlines()
-        custom_entries = parse_lines(custom_lines)
+        custom_entries = parse_lines(custom_lines, is_upstream=False)
         new_custom = custom_entries - all_entries
         all_entries |= custom_entries
         print(f"  +{len(custom_entries)} entries ({len(new_custom)} not already in upstream)")
@@ -76,8 +98,8 @@ def main():
         f"# Sources: {', '.join(UPSTREAM_SOURCES)} + custom\n"
         f"# Total entries: {len(sorted_entries)}\n"
         f"#\n"
-        f"# Format: v2fly domain-list-community\n"
-        f"#   domain:<name>   regexp:<pattern>   full:<fqdn>   keyword:<word>\n"
+        f"# Format: plain domains, one per line
+        f"# Note: keyword: and regexp: upstream entries are intentionally excluded
     )
 
     with open(OUTPUT_FILE, "w", encoding="utf-8") as f:
