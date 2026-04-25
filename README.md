@@ -17,15 +17,13 @@ A merged, deduplicated domain list for major streaming services, auto-updated da
 
 The merged list is written to **`streaming-domains.txt`** in the root of the repo after every run.
 
-Raw URL for use in tools like Clash, sing-box, or v2ray:
-
 ```
 https://raw.githubusercontent.com/<YOUR_USERNAME>/<YOUR_REPO>/main/streaming-domains.txt
 ```
 
 ## Adding custom domains
 
-Edit [`lists/custom.txt`](lists/custom.txt). Use the same format as the v2fly community lists:
+Edit [`lists/custom.txt`](lists/custom.txt).
 
 ```
 # exact domain
