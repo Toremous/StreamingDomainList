@@ -1,7 +1,7 @@
 # Streaming domains — merged list
-# Generated: 2026-05-15T23:16:53Z
+# Generated: 2026-05-15T23:26:26Z
 # Sources: primevideo, disney, hulu, hbo, netflix + custom
-# Total entries: 278
+# Total entries: 279
 # Format: plain domains, one per line
 
 112263.com
@@ -23,6 +23,7 @@ beforeigners.com
 brightline.tv
 callhulu.com
 cinemax.com
+cloudfront.net
 d1v5ir2lpwr8os.cloudfront.net
 d22qjgkvxw22r6.cloudfront.net
 d25xi40x97liuc.cloudfront.net
