@@ -1,14 +1,1 @@
-# Custom domain list — plain domains only, one per line.
-# These are merged with the upstream sources and deduplicated.
-#
-# Just enter bare domain names. Your router will match the domain
-# and all subdomains automatically.
-#
-# Examples:
-#   mystreaming.tv
-#   watch.example.com
-#   cdn.someservice.net
-#
-# Lines starting with # are comments. Blank lines are ignored.
-
 cloudfront.net
