@@ -18,7 +18,7 @@ UPSTREAM_SOURCES = {
     "netflix":    "https://github.com/v2fly/domain-list-community/raw/refs/heads/master/data/netflix",
 }
 
-CUSTOM_LIST = os.path.join(os.path.dirname(os.path.abspath(__file__)), "lists", "custom.txt")
+CUSTOM_LIST = os.path.join(os.path.dirname(os.path.abspath(__file__)), "custom.txt")
 OUTPUT_FILE = os.path.join(os.path.dirname(os.path.abspath(__file__)), "streaming-domains.txt")
 
 DOMAIN_RE = re.compile(r'^[a-zA-Z0-9]([a-zA-Z0-9\-]*[a-zA-Z0-9])?(\.[a-zA-Z0-9]([a-zA-Z0-9\-]*[a-zA-Z0-9])?)+$')
