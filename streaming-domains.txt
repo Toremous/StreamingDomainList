@@ -1,7 +1,7 @@
 # Streaming domains — merged list
-# Generated: 2026-05-16T08:00:21Z
+# Generated: 2026-05-17T08:18:00Z
 # Sources: primevideo, disney, hulu, hbo, netflix + custom
-# Total entries: 256
+# Total entries: 280
 # Format: plain domains, one per line
 
 112263.com
@@ -125,6 +125,7 @@ disneyworld-go.com
 dmqdd6hw24ucf.cloudfront.net
 dssott.com
 elpionero.es
+fast.com
 findyourlimits.com
 forthethrone.com
 freehulu.com
@@ -231,6 +232,29 @@ moviesanywhere.com
 msh.amazon.co.uk
 mushymush.tv
 myhulu.com
+netflix.ca
+netflix.com
+netflix.com.edgesuite.net
+netflix.net
+netflixdnstest0.com
+netflixdnstest1.com
+netflixdnstest10.com
+netflixdnstest2.com
+netflixdnstest3.com
+netflixdnstest4.com
+netflixdnstest5.com
+netflixdnstest6.com
+netflixdnstest7.com
+netflixdnstest8.com
+netflixdnstest9.com
+netflixinvestor.com
+netflixtechblog.com
+nflxext.com
+nflximg.com
+nflximg.net
+nflxsearch.net
+nflxso.net
+nflxvideo.net
 nomadlandmovie.ch
 originalhulu.com
 payhulu.com
