@@ -1,10 +1,11 @@
 # Streaming domains — merged list
-# Generated: 2026-08-04T08:31:20Z
+# Generated: 2026-08-05T08:30:12Z
 # Sources: primevideo, disney, hulu, hbo, netflix + custom
-# Total entries: 280
+# Total entries: 297
 # Format: plain domains, one per line
 
 112263.com
+20thcenturystudios.com
 20thcenturystudios.com.au
 20thcenturystudios.com.br
 20thcenturystudios.jp
@@ -18,7 +19,6 @@ amazonvideo.cc
 amazonvideo.com
 babble.com
 babyzone.com
-bamgrid.com
 beautyandthebeastmusical.co.uk
 beforeigners.com
 brightline.tv
@@ -29,6 +29,7 @@ d1v5ir2lpwr8os.cloudfront.net
 d22qjgkvxw22r6.cloudfront.net
 d25xi40x97liuc.cloudfront.net
 d27xxe7juh1us6.cloudfront.net
+detpress.com
 dilcdn.com
 discomax.com
 disney-asia.com
@@ -76,7 +77,9 @@ disney.ro
 disney.ru
 disney.se
 disney.sg
+disneyaccount.com
 disneyadsales.com
+disneyanimation.com
 disneyarena.com
 disneyaulani.com
 disneybaby.com
@@ -91,6 +94,7 @@ disneyinternational.com
 disneyinternationalhd.com
 disneyjunior.com
 disneyjuniortreataday.com
+disneylandparis.com
 disneylatino.com
 disneymagicmoments.co.il
 disneymagicmoments.co.uk
@@ -113,11 +117,13 @@ disneypeoplesurveys.com
 disneyplus.bn5x.net
 disneyplus.com
 disneyplus.com.ssl.sc.omtrdc.net
+disneyprivacycenter.com
 disneyredirects.com
 disneysrivieraresort.com
 disneystore.com
 disneystreaming.com
 disneysubscription.com
+disneytermsofuse.com
 disneytickets.co.uk
 disneyturkiye.com.tr
 disneytvajobs.com
@@ -128,7 +134,10 @@ elpionero.es
 fast.com
 findyourlimits.com
 forthethrone.com
+freeform.com
 freehulu.com
+fxnetwork.com
+fxnetworks.com
 go-disneyworldgo.com
 go.com
 hbo-europe.com
@@ -185,6 +194,7 @@ hbospain.com
 hbotvsales.com
 homebox.com
 homeboxoffice.com
+hongkongdisneyland.com
 hooloo.tv
 hoolu.com
 hoolu.tv
@@ -225,6 +235,7 @@ images-eu.ssl-images-amazon.com
 images-fe.ssl-images-amazon.com
 images-na.ssl-images-amazon.com
 joinmaidez.com
+lucasfilm.com
 max.com
 maxgo.com
 mickey.tv
@@ -258,6 +269,7 @@ nflxvideo.net
 nomadlandmovie.ch
 originalhulu.com
 payhulu.com
+pixar.com
 playmation.com
 prime-video.com
 primevideo.cc
@@ -268,6 +280,8 @@ primevideo.tv
 prod.service.minerva.devices.a2z.com
 redbyhbo.com
 registerhulu.com
+searchlightpictures.com
+shanghaidisneyresort.com
 shopdisney.com
 shops-disney.com
 sorcerersarena.com
@@ -281,6 +295,9 @@ static.siege-amazon.com
 streamingdisney.net
 thehulubraintrust.com
 thestationbymaker.com
+thewaltdisneycompany.com
 thisispolaris.com
+tokyodisneyresort.jp
+waltdisneystudios.com
 watchdisneyfe.com
 wwwhuluplus.com
