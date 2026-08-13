@@ -1,5 +1,5 @@
 # Streaming domains — merged list
-# Generated: 2026-08-12T07:19:14Z
+# Generated: 2026-08-13T07:21:24Z
 # Sources: primevideo, disney, hulu, hbo, netflix + custom
 # Total entries: 297
 # Format: plain domains, one per line
