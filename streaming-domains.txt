@@ -1,7 +1,7 @@
 # Streaming domains — merged list
-# Generated: 2026-08-25T06:40:02Z
+# Generated: 2026-08-26T06:41:50Z
 # Sources: primevideo, disney, hulu, hbo, netflix + custom
-# Total entries: 297
+# Total entries: 298
 # Format: plain domains, one per line
 
 112263.com
@@ -140,6 +140,7 @@ fxnetwork.com
 fxnetworks.com
 go-disneyworldgo.com
 go.com
+h264.io
 hbo-europe.com
 hbo.ba
 hbo.bg
