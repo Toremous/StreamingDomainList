@@ -1,7 +1,7 @@
 # Streaming domains — merged list
-# Generated: 2026-10-18T10:20:41Z
+# Generated: 2026-10-19T12:02:58Z
 # Sources: primevideo, disney, hulu, hbo, netflix + custom
-# Total entries: 298
+# Total entries: 299
 # Format: plain domains, one per line
 
 112263.com
@@ -279,6 +279,7 @@ primevideo.info
 primevideo.org
 primevideo.tv
 prod.service.minerva.devices.a2z.com
+pv-cdn.net
 redbyhbo.com
 registerhulu.com
 searchlightpictures.com
